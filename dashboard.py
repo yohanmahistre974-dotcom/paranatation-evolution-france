@@ -950,7 +950,8 @@ PAGES[page]()
 st.markdown("---")
 st.markdown(
     '<div class="footer">'
-    "Développé par <strong>Yohan Mahistre</strong> — Data Scientist & IA · "
+    'Développé par <a href="https://yohan-mahistre.pages.dev" target="_blank" '
+    'style="color: #80DEEA; text-decoration: none;"><strong>Yohan Mahistre</strong></a> · '
     "Données : IPC SDMS, FFH, Wikipedia"
     "</div>",
     unsafe_allow_html=True,
